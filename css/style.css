@@ -1,0 +1,53 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    }
+
+    .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}    
+
+.container{
+    width:75%;
+    
+    margin:0 auto;
+    
+    
+}
+
+header {
+    width: 700px;
+    height:80px;
+    background-color: rgba(229,122,230,255);
+    margin: 20px auto;
+}
+
+section {
+    width:700px;
+    height:300px;
+    background-color: rgba(225,214,122,255);
+    margin: 20px auto;
+}
+
+.second-section {
+    width:700px;
+    height:400px;
+    background-color: rgba(0,134,255,255);
+    margin: 20px auto;
+}
+
+.header-second-section {
+    width: 700px;
+    height:50px;
+    background-color: rgba(171,207,231,255);
+    margin: 20px auto;
+
+}
+
+
+
+
